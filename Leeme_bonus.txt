@@ -1,0 +1,27 @@
+Para ejecutar el algoritmo, abrir una terminal en la carpeta "Bot Cotizacion_Cauterucci" y escribir python3 Bonus_Cauterucci.py
+
+IMPORTANTE: Reemplazar en esta linea:
+ s = Service('/home/fcaute/Escritorio/Challenge/Bot Cotizacion_Cauterucci/drivers/geckodriver')
+
+el directorio de '/home/fcaute/.../.geckodriver por el directorio donde se haya descargado la carpeta, e indicar el directorio del driver de geckodriver
+
+
+Si todo salio bien, el script de python deberia crear un archivo xlsx cumpliendo con el bonus del enunciado. Codigo escrito y probado por Fabrizio Cauterucci
+
+URL consultadas:
+https://linuxhint.com/using_selenium_firefox_driver/
+https://www.bna.com.ar/Personas
+https://xlsxwriter.readthedocs.io/tutorial03.html
+https://es.stackoverflow.com/questions/8239/como-generar-una-matriz-con-una-lista-que-contiene-datos
+https://www.programiz.com/python-programming/methods/list/insert
+
+
+
+solucion al warning : Warning (from warnings module):
+  File "/home/fcaute/selenium-firefox/intento2.py", line 11
+    browser = webdriver.Firefox(executable_path='/home/fcaute/selenium-firefox/drivers/geckodriver', options=firefoxOptions)
+DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+
+https://stackoverflow.com/questions/69918148/deprecationwarning-executable-path-has-been-deprecated-please-pass-in-a-servic
+
+https://stackoverflow.com/questions/31909722/how-to-write-python-array-into-excel-spread-sheet/31918108#31918108
