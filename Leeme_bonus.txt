@@ -1,3 +1,8 @@
+Aqui dejo un video de como funciona el Bot:
+
+https://drive.google.com/file/d/1KK2XzAyxiPtWA1xfh8myEn9t789JSiWm/view?usp=sharing
+
+
 Para ejecutar el algoritmo, abrir una terminal en la carpeta "Bot Cotizacion_Cauterucci" y escribir python3 Bonus_Cauterucci.py
 
 IMPORTANTE: Reemplazar en esta linea:
